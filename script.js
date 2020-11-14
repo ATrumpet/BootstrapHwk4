@@ -26,7 +26,7 @@ $(document).ready(function(){
         $('.redBox, .blueBox, .greenBox').hide();
     });
     // Reset Colors
-    $('.resetcol').on('click',function() {
+    $('.resetColors').on('click',function() {
         $('.redBox').css('background-color', 'red');
         $('.blueBox').css('background-color', 'blue');
         $('.greenBox').css('background-color', 'green');
